@@ -6,6 +6,10 @@ android {
     namespace = "trier.hochschule.ema.compoundviews"
     compileSdk = 35
 
+    viewBinding {
+        enable = true
+    }
+
     defaultConfig {
         applicationId = "trier.hochschule.ema.compoundviews"
         minSdk = 24
@@ -29,6 +33,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
 }
 
 dependencies {
